@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <style>
+    body {
+      text-align: center;
+      background-color: #efefef;
+    }
+
+    .box {
+      background-color: #e8e2e2;
+      display: inline-block;
+      border: #eeeeee solid;
+      margin-top: 12%;
+      padding: 0px 60px 0px 100px;
+    }
+    label{
+      display: block;
+    }
+
+    .username {
+      display: block;
+      font-style: normal;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      color: #434242;
+      text-align: left;
+    }
+    .password {
+      display: block;
+      font-style: normal;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      color: #434242;
+      text-align: left;
+    }
+    h2 {
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #434242;
+    }
+    #username1 {
+      border-radius: 5px;
+      border: 2px solid #b2b2b2;
+      width: 250px;
+      height: 25px;
+    }
+
+    #password1 {
+      border-radius: 5px;
+      border: 2px solid #b2b2b2;
+      width: 250px;
+      height: 25px;
+    }
+
+    .login {
+      margin: 50px 100px 50px 0px;
+     
+    }
+
+    #forget1 {
+      text-decoration: none;
+      font-style: normal;
+      font-size: small;
+      padding-left: 65px;
+    }
+    .forget {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 5px;
+      font-size: small;
+      color: #434242;
+    }
+    .forget a {
+      color: #125d98;
+    }
+    #btn1 {
+      width: 250px;
+      height: 30px;
+      background-color: #125d98;
+      color: white;
+    }
+    #btn {
+      padding-top: 15px;
+    }
+    #btn1 {
+      border-radius: 5px;
+      border: 2px solid #125d98;
+    }
+    #remember {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #434242;
+
+      border: 1px solid #b2b2b2;
+    }
+
+    #footer a {
+      padding-top: 5px;
+      text-decoration: none;
+      color: #125d98;
+    }
+    #footer p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #434242;
+      font-size: smaller;
+      padding-right: 25px;
+    }
+  </style>
+  <body>
+    <form class="box">
+      <div class="login">
+        <h2>Giriş Yap</h2>
+        <div class="username">
+          <label for="username">Kullanıcı Adınız</label>
+          <br />
+          <input
+            type="text"
+            id="username1"
+            placeholder="  ..."
+            style="background-color: #e8e2e2"
+          />
+        </div>
+        <br />
+        <div class="password">
+          <label for="password">Şifreniz</label>
+          <br />
+          <input
+            type="password"
+            id="password1"
+            placeholder="  ..."
+            style="background-color: #e8e2e2"
+          />
+        </div>
+
+        <div class="forget">
+          <label for="remember">
+            <input type="checkbox" id="remember" />Beni hatırla
+          </label>
+          <a href="#" id="forget1">Şifremi Unuttum </a>
+        </div>
+
+        <div id="btn">
+          <button type="button" id="btn1">Giriş Yap</button>
+        </div>
+
+        <div id="footer">
+          <p>Hesabınız yok mu? <a href="#">Hesap Oluşturun</a></p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
